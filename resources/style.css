@@ -1,0 +1,127 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;	
+	display: flex;
+	flex-direction: column;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+* {
+	font-size: 14px;
+	font-family: "Raleway";
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 0;
+}
+*, *:before, *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active {outline: none;}
+a:focus, a:active {outline: none;}
+nav, footer, header, aside {display: block;}
+input, button, textarea {font-family: inherit;}
+input::-ms-clear {display: none;}
+button, a {cursor: pointer;}
+button::-moz-focus-inner {padding:0; border:0;}
+a, a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+
+h1, h2, h3, h4, h5, h6 {font-size:inherit; font-weight: 400;}
+
+header {
+    position: absolute;
+    border-bottom: 1px solid #d12222;
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    background-color: #d12222;
+    color: white;
+    font-weight: 700;
+}
+
+footer {
+    background-color: black;
+    padding: 15px;
+    font-weight: 700;
+    color: white;
+}
+
+main {
+    padding-top: 50px;
+    flex-grow: 1;
+}
+
+.content {
+    position: relative;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gg {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.log {
+    width: 20px;
+    height: 20px;
+}
+
+.about p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.about p:last-child {
+    margin-bottom: 0;
+}
+
+.text_h {
+    display: inline-block;
+    padding-left: 10px;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+a {
+    display: block;
+    float: right;
+    color: white;
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.ja {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.home {
+    width: 290px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #d12222;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 420px;
+}
+
+a:hover {
+    transition: 0.25s;
+    transform: scale(0.9);
+}
